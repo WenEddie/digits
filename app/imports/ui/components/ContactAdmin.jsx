@@ -7,7 +7,7 @@ import { withRouter } from 'react-router-dom';
 class ContactAdmin extends React.Component {
   render() {
     return (
-        <Card>
+        <Card centered>
           <Card.Content>
             <Image floated='right' size='mini' src={this.props.contact.image}/>
             <Card.Header>
