@@ -54,8 +54,8 @@ class AddNote extends React.Component {
 }
 
 AddNote.propTypes = {
-  owner: PropTypes.object.isRequired,
-  contactId: PropTypes.object.isRequired,
+  owner: PropTypes.string.isRequired,
+  contactId: PropTypes.string.isRequired,
 };
 
 export default AddNote;
